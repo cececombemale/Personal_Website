@@ -1,0 +1,158 @@
+#homepage_pic{
+	margin: auto;
+	display: block;
+}
+/*#logo{
+	position: absolute;
+	left: 10px;
+	top:375px;
+	display: inline;
+}
+.nav{
+	position: absolute;
+	left: 63px;
+	top:475px;
+	display: inline;
+}*/
+.nav-link{
+	color: black;
+	padding-top: 50px;
+}
+.navbar{
+	background-color: white;
+}
+.headers{
+	line-height: 100px;
+	text-align: center;
+	color: black;
+	font-family: Kohinoor Bangla, Calibri, sans-serif; 
+}
+h1{
+	line-height: 100px;
+	text-align: center;
+	color: black;
+	font-family: Kohinoor Bangla, Calibri, sans-serif; 
+}
+p{
+	line-height: 20px;
+	text-align: center;
+	color: #cdcdcd;
+	font-family: Kohinoor Bangla, Calibri, sans-serif; 
+}
+#contact p{
+	text-align: left;
+}
+
+
+
+	body{
+		background-color: white;
+		margin-bottom: 110px;
+	}
+	input{
+		display: none;
+	}
+	
+	#logo{
+		display: inline;
+		position: absolute;
+		left: 10px;
+		top:10px;
+	}
+	
+	h2{
+		color: black;
+		font-family: Kohinoor Bangla, Calibri, sans-serif; 
+		margin: 0;
+		padding-top: 10px;
+	}
+	#contact p{
+		/*text-align: left; */
+	}
+	#menu{
+		display: none;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+		line-height: 1.5em;
+		font-family: Kohinoor Bangla, Calibri, sans-serif; 
+		/*font-size: 12px;*/
+	}
+	#contact p{
+		color: black;
+		font-family: Kohinoor Bangla, Calibri, sans-serif; 
+		font-size: 12px;
+		display: inline;
+		clear: both;
+	}
+	a:hover{
+	color: red;
+    text-decoration: underline;
+	}
+	a:active{
+	color: white;
+	text-decoration: none;
+	}
+	#big_contact{
+		text-align: center;
+		position:fixed;
+  	 	bottom:0;
+   		width:100%;
+   		height:100px;   /* Height of the footer */
+   		background-color:#E0E0E1;
+   		margin: 0;
+	}
+	#big_contact p{
+		color: black;
+		font-family: Kohinoor Bangla, Calibri, sans-serif; 
+		font-size: 12px;
+		background-color:#E0E0E1;
+	}
+	#contact {
+		background-color: #e0e0e1;
+	}
+	#email {
+		margin-right: 400px;
+		display: inline;
+		clear: both;
+	}
+	#menuToggle{
+		display: none;
+	}
+	
+
+
+@media(min-width: 768px){
+	.navbar-expand-md ul#navlist{
+		flex-direction: row;
+		
+	}
+
+	.right {
+		margin-left: 100px;
+	}
+
+	.test {
+	margin-top: 300px;
+	margin-right: 600px;
+
+
+	}
+
+	.down {
+		margin-top: 100px;
+	}
+
+	#pics {
+		clear: both;
+		display: block;
+	}
+
+	.top {
+		float: left;
+		display: block;
+	}
+}
+
+	

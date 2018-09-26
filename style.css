@@ -1,0 +1,40 @@
+#homepage_pic{
+	margin: auto;
+	display: block;
+}
+/*#logo{
+	position: absolute;
+	left: 10px;
+	top:375px;
+	display: inline;
+}
+.nav{
+	position: absolute;
+	left: 63px;
+	top:475px;
+	display: inline;
+}*/
+.nav-link{
+	color: black;
+}
+.navbar{
+	background-color: white;
+}
+
+@media(min-width: 768px){
+	.navbar-expand-md ul#navlist{
+		flex-direction: column;
+		
+	}
+
+	.test {
+	margin-top: 300px;
+	margin-right: 600px;
+
+
+	}
+
+	.down {
+		margin-top: 100px;
+	}
+}
